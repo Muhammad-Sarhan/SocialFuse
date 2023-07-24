@@ -1,0 +1,157 @@
+/* Set the primary color scheme to black, blue, and green */
+:root {
+    --primary-color: #000;
+    --secondary-color: #00b8ff;
+    --accent-color: #4caf50;
+}
+
+/* Set the font family and background color */
+body {
+    font-family: 'Caprasimo', cursive;
+    background-color: #000;
+}
+
+/* Add a gradient background to the header */
+header {
+    background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+}
+
+/* Style the main heading */
+h1 {
+    color: #fff;
+    text-shadow: 2px 2px var(--primary-color);
+    font-size: 3em;
+    margin-top: 0;
+}
+
+/* Add a subtle box shadow to the main heading */
+h1 {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the links */
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+/* Add a hover effect to the links */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add a border to the buttons */
+button {
+    border: 2px solid var(--accent-color);
+}
+
+/* Add a hover effect to the buttons */
+button:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+/* Add a subtle animation to the buttons */
+button {
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+
+/* Style the social media icons */
+.social {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social li {
+    margin: 0 10px;
+}
+
+.social li a {
+    color: var(--secondary-color);
+    font-size: 2em;
+}
+
+.social li a:hover {
+    color: var(--accent-color);
+}
+
+/* Add a border to the description box */
+#disgorf {
+    border: 2px solid var(--secondary-color);
+}
+
+/* Add a subtle animation to the description box */
+#disgorf {
+    transition: border-color 0.2s ease-out;
+}
+
+/* Add a subtle box shadow to the description box */
+#disgorf {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the email link */
+#emails {
+    font-size: 0.9em;
+    font-weight: bold;
+    text-shadow: 1px 1px var(--primary-color);
+}
+
+/* Add a subtle animation to the email link */
+#emails {
+    transition: text-shadow 0.2s ease-out;
+}
+
+/* Add a hover effect to the email link */
+#emails:hover {
+    text-shadow: 2px 2px var(--primary-color);
+}
+
+#section1-in-profile-1 {
+    background: url(../image/d-cover.jpg);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#imgprodile {
+    margin-top: -100px;
+}
+
+#namepage {
+    margin-left: -950px;
+    margin-top: -150px;
+}
+
+#emails {
+    margin-left: -920px;
+    margin-top: -190px;
+}
+
+#Discription {
+    margin-left: -920px;
+    margin-top: -200px;
+}
+
+/* Small screens (mobile devices) */
+@media only screen and (max-width: 600px) {
+
+    /* Adjust the layout and styling for small screens here */
+    /* For example: */
+    #imgprodile {
+        margin-right: 0;
+    }
+}
+
+/* Medium screens (tablets) */
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+    /* Adjust the layout and styling for medium screens here */
+}
+
+/* Large screens (desktops) */
+@media only screen and (min-width: 960px) {
+    /* Adjust the layout and styling for large screens here */
+}
